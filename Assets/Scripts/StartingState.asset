@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You are the oldest son of a dying father. He passed his house to you
+    and your 2 other siblings. You are left jobless and it is time to pick a profession. 
+    \n\n\n1.Blacksmith \n2.Miller \n3.Farmer"
+  nextStates:
+  - {fileID: 11400000, guid: 71f0922370bb86e4a9da1df5ec5a22e7, type: 2}
+  - {fileID: 11400000, guid: 44cf6d9d70577aa40af5f894030bd018, type: 2}

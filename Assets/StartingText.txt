@@ -1,0 +1,7 @@
+
+You are the oldest son of a dying father. He passed his house to you and your 2 other siblings.
+You are left jobless and it is time to pick a profession.
+
+1.Blacksmith 
+2.Miller
+3.Farmer
