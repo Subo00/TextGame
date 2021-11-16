@@ -10,11 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
-  m_Name: StartingState
+  m_Name: A0
   m_EditorClassIdentifier: 
-  storyText: "You are the oldest son of a dying father. He passed his house to you
-    and your 2 other siblings. You are left jobless and it is time to pick a profession. 
-    \n\n\n1.Blacksmith \n2.Miller \n3.Farmer"
+  titleName: Quest begins
+  storyText: 'You are a knight in the medieval times. You are sent by the king to
+    investigate the problems the nearby village called  "Vas" has been having. Armed
+    with a sword and a shield you start your journey.
+
+
+
+    1.Begin'
   nextStates:
   - {fileID: 11400000, guid: 71f0922370bb86e4a9da1df5ec5a22e7, type: 2}
-  - {fileID: 11400000, guid: 44cf6d9d70577aa40af5f894030bd018, type: 2}

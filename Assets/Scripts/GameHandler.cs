@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GameHandler : MonoBehaviour
 {
+    [SerializeField] Text titleComponent;
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
 
@@ -20,6 +21,7 @@ public class GameHandler : MonoBehaviour
     private void UpdateState()
     {
         textComponent.text = state.GetStateStory();
+        titleComponent.text = state.GetStateTitle();
     }
 
     // Update is called once per frame

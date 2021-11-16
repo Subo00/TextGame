@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: B9
+  m_EditorClassIdentifier: 
+  titleText: Cave
+  storyText: "You ready yourself for the attack. You sneak in the cave, raise your
+    sword and stab the sleeping bear. The bear is wounded but she's awake and angry
+    as all hell. She attacks with the flurry of swipes. Luckily your shield protects
+    you, but it's broken in the process. Your next move is: \r\n\r\n1.Attack her
+    again\r\n2.Run North"
+  nextStates: []

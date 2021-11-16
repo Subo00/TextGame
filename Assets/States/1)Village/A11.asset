@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: A11
+  m_EditorClassIdentifier: 
+  titleText: Village tavern
+  storyText: '"One of the brave men was my own brother, he''s a hunter, his name
+    is Boris. I''m sure he''ll help you if you find and ask him.". She goes on to
+    serve the drinks at the bar. After a while she comes back at you and gives you
+    her hand: "Oh yeah I forgot, my name is Hilda, sorry it get''s crowded in here
+    so I get lost a bit. Well anyway if you need more information, you can ask the
+    village elder in the hut."
+
+    
+
+    1.Visite the hut
+
+    2.Go to the forest'
+  nextStates: []

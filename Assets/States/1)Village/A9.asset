@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: A9
+  m_EditorClassIdentifier: 
+  titleText: Village hut
+  storyText: '"Oh yeah I don''t use that word lightly, I saw it with my own eye!"
+    She said it with the serious face. "I used to live in a mansion near the village,
+    you see my full name is Greta Stonehearth, I''m a noblewoman... or I was until
+    that thing scared me away...."
+
+    
+
+    1.Continue '
+  nextStates: []

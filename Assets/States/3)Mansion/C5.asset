@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: C5
+  m_EditorClassIdentifier: 
+  titleText: Mansion
+  storyText: 'As soon as you open the front door, you are greeted with a crossbow
+    bolt flying your way. You don''t have anything to deflect the bolt and it hits
+    you in the stomach, making you unable to move. Unfortunately this is where your
+    quest ends
+
+    
+
+    1.Restart'
+  nextStates: []

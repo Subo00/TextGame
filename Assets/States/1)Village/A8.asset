@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0f63d072ffd0241a2162e17e46d8eb, type: 3}
+  m_Name: A8
+  m_EditorClassIdentifier: 
+  titleText: Village tavern
+  storyText: "\"No, sorry, let me start from the beginning. We noticed that something
+    has moved in the mansion and has been hunting in the forest near by. A few weeks
+    later we saw that our livestock has been missing as well. Some brave men from
+    the village tried to get rid of the problem but they all returned hurt and empty
+    handed\" \r\n\r\n1.Continue"
+  nextStates: []
