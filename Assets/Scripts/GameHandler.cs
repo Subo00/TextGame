@@ -6,11 +6,13 @@ using UnityEngine.UI;
 
 public class GameHandler : MonoBehaviour
 {
-    [SerializeField] Text titleComponent;
-    [SerializeField] Text textComponent;
-    [SerializeField] State startingState;
+    [SerializeField] private Text titleComponent;
+    [SerializeField] private Text textComponent;
+    [SerializeField] private State startingState;
+    [SerializeField] private Button[] buttons;
+    private int numOfActions = 5;
 
-    State state;
+    private  State state;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,29 +24,43 @@ public class GameHandler : MonoBehaviour
     {
         textComponent.text = state.GetStateStory();
         titleComponent.text = state.GetStateTitle();
+        ManageButtons();
+        Debuging();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Debuging()
     {
-        ManageState();
+        var futureStates = state.GetNextState();
+        for(int i = 0; i < futureStates.Length; i++)
+        {
+            Debug.Log("Current state: "+ state + ", next state "+ futureStates[i]);
+        }
     }
 
-    private void ManageState()
+    private void ManageButtons()
     {
-        var nextStates = state.GetNextState();
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        var actions = state.GetStateActions();
+        for(int i = 0; i < numOfActions; i++)
         {
-            state = nextStates[0];
+            buttons[i].gameObject.SetActive(false); //disables the buttons if they aren't needed
+            if(actions.Length > i)
+            {
+                buttons[i].gameObject.SetActive(true); //enable buttons that are needed
+                buttons[i].GetComponentInChildren<Text>().text = actions[i]; //change the text to the action 
+                int nextState = i;
+                buttons[i].onClick.RemoveAllListeners(); //remove the previous listeners
+                buttons[i].onClick.AddListener(()=> ChangeState(nextState)); //when you click on a button, change state
+                
+            }
+           
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-        }
-        else if(Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            state = nextStates[2];
-        }
+    }
+
+  
+    private void ChangeState(int nextState)
+    {
+        var futureStates = state.GetNextState();
+        state = futureStates[nextState];
         UpdateState();
     }
 }

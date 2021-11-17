@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Village tavern
   storyText: "Entering the tavern you can see a lot of people at their tables drinking
-    and talking, you approach the bar and the barmaid. You.... \r\n\r\n1.Order ale\r\n2.Ask:\"how
-    may I be of service\""
-  nextStates: []
+    and talking, you approach the bar and the barmaid. You.... \r"
+  actions:
+  - 'Order ale '
+  - Ask:"how may I be of service?"
+  nextStates:
+  - {fileID: 11400000, guid: d4fb0762b7794b94bbb436345a9b4bb9, type: 2}
+  - {fileID: 11400000, guid: 4cbb0ac2a7a8ed843b485ba82180facb, type: 2}

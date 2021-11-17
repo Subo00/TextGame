@@ -14,14 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Village hut
   storyText: 'As you open the doors of the hut the sweet aromas hit you. You are
-    greeted by an old lady. She hands you a cup of tea and introduces herself: "Hi,
-    my name is Greta, I am the elder of this village, you must be here to solve the
-    monster problem? We have been expecting you! "
-
-    
-
-    1."Yes, that''s right"
-
-    2."Monster
-    problem!?"   '
-  nextStates: []
+    greeted by an old lady. She has long grey hair, old wrinkled face and small green
+    eyes.She hands you a cup of tea and introduces herself: "Hi, my name is Greta,
+    I am the elder of this village, you must be here to solve the monster problem?
+    We have been expecting you! "'
+  actions:
+  - '"Yes, that''s right"'
+  - '"Monster problem!?"   '
+  nextStates:
+  - {fileID: 11400000, guid: feaf648f7139b904f8b89f8060fe75c9, type: 2}
+  - {fileID: 11400000, guid: d66a2cc8ce3100b418fe9c1e5b7bd365, type: 2}

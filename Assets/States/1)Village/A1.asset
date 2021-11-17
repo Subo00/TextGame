@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: A1
   m_EditorClassIdentifier: 
   titleText: Village Vas
-  storyText: 'You traveled half a day. It''s high noon by now. As you approach the
+  storyText: You traveled half a day. It's high noon by now. As you approach the
     village you notice the two main buildings that stand out from the rest of the
     houses.
-
-    
-
-    1.Elder''s hut
-
-    2.Local tavern'
-  nextStates: []
+  actions:
+  - Elder's hut
+  - Local tavern
+  nextStates:
+  - {fileID: 11400000, guid: 44cf6d9d70577aa40af5f894030bd018, type: 2}
+  - {fileID: 11400000, guid: b822656c431edd841af841e6499c2f08, type: 2}

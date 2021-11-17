@@ -16,6 +16,10 @@ MonoBehaviour:
   storyText: "\"Great!\" She says cheerfully. \"It lives in a abandoned mansion just
     north of the forest, you can't miss it.\" You can feel her excitement. \"You
     might also want to visit the tavern and ask around for more information or you
-    could just go straight to the forest\"   \r\n\r\n1.Visit the Tavern\r\n2.Go to
-    the forest "
-  nextStates: []
+    could just go straight to the forest\"   \r"
+  actions:
+  - 'Visit the Tavern '
+  - 'Go to the forest '
+  nextStates:
+  - {fileID: 11400000, guid: b822656c431edd841af841e6499c2f08, type: 2}
+  - {fileID: 11400000, guid: ccb97273e053394478693168774f73a6, type: 2}

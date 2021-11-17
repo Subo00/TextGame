@@ -16,5 +16,8 @@ MonoBehaviour:
   storyText: "She gives you a confused look and says: \"help?! what are you talking
     abou... OHH\" she exclaims. \"You must be the help we asked for a week ago\"
     she continues \"We were having problems with the local livestock.\". She stops
-    shakes her head and goes... \r\n\r\n1.Continue"
-  nextStates: []
+    shakes her head and goes... \r"
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: 9a6eef81f40c5c84db77ba9f9155c036, type: 2}
