@@ -18,7 +18,7 @@ MonoBehaviour:
     might also want to visit the tavern and ask around for more information or you
     could just go straight to the forest\"   \r"
   actions:
-  - 'Visit the Tavern '
+  - Visit the tavern
   - 'Go to the forest '
   nextStates:
   - {fileID: 11400000, guid: b822656c431edd841af841e6499c2f08, type: 2}

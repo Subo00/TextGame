@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: A8
   m_EditorClassIdentifier: 
   titleText: Village tavern
-  storyText: "\"No, sorry, let me start from the beginning. We noticed that something
+  storyText: '"No, sorry, let me start from the beginning. We noticed that something
     has moved in the mansion and has been hunting in the forest near by. A few weeks
     later we saw that our livestock has been missing as well. Some brave men from
     the village tried to get rid of the problem but they all returned hurt and empty
-    handed\" \r\n\r\n1.Continue"
-  nextStates: []
+    handed"'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: c43c0f10584a6f2418084f68791b25d2, type: 2}

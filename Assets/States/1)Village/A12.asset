@@ -16,7 +16,11 @@ MonoBehaviour:
   storyText: 'You lost count of the drinks, the rounds just kept coming. You outdrink
     yourself before finishing the quest.
 
-    
-
-    1.Restart'
-  nextStates: []
+'
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}
+  flagNames: []
+  flagUse:
+  - 

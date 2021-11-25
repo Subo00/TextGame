@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: C21
   m_EditorClassIdentifier: 
   titleText: Mansion
-  storyText: "Following him upstairs you manage to lose him. You try to find him:\r\n\r\n1.In
-    the office room\r\n2.On the balcony \r\n3. In the bedroom"
-  nextStates: []
+  storyText: 'Following him upstairs you manage to lose him. You try to find him:
+
+    
+
+'
+  actions:
+  - 'In the office room '
+  - 'On the balcony  '
+  - In the bedroom
+  nextStates:
+  - {fileID: 11400000, guid: df45e87f9a5fa55478cbfcb07cb314d4, type: 2}
+  - {fileID: 11400000, guid: b9b5756b4f7e90d4f9c2c7463e0cbeba, type: 2}
+  - {fileID: 11400000, guid: cf1f2fe270348df40a6ecad4b5aed807, type: 2}

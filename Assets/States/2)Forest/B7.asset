@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Forest
   storyText: "You come across a stream. The air and ground around you is moist, the
-    trees are too. There are multiple paths to choose from: \r\n\r\n1.Go West\r\n2.
-    Go North\r\n3.Go East\r\n4.Go South"
-  nextStates: []
+    trees are too. There are multiple paths to choose from: \r"
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 0e3e007f1743f074992c83bf6c4e54fb, type: 2}
+  - {fileID: 11400000, guid: f625091228df66242822649cf321396f, type: 2}
+  - {fileID: 11400000, guid: 32c6d0772fcaefb478f146848de4559e, type: 2}
+  - {fileID: 11400000, guid: 7f206a48eaf66944a916a72b4140c598, type: 2}

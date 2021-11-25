@@ -16,5 +16,8 @@ MonoBehaviour:
   storyText: "You returned to the village with Luca. You explain to Greta that not
     only he isn't a monster, but also her grandchild. After hours of catching up,
     they moved back to the mansion, and you returned to the capital, to report to
-    the king.  \r\n\r\nGOOD ENDING\r\n1.Restart"
-  nextStates: []
+    the king.  \r\n\r\nGOOD ENDING\r\n"
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

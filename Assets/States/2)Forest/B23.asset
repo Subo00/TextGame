@@ -15,14 +15,16 @@ MonoBehaviour:
   titleText: Forest
   storyText: 'The forest doesn''t get any lighter, but you keep on moving. You:
 
-    
 
-    1.Go
-    West
 
-    2. Go North
-
-    3.Go East
-
-    4.Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 64c288ce76739f24196356cb0407e84a, type: 2}
+  - {fileID: 11400000, guid: 0f57e2124fc079f4a8ba703e9cf288cc, type: 2}
+  - {fileID: 11400000, guid: c01dcd2543f69ca4e8b645f9a2b38f1c, type: 2}
+  - {fileID: 11400000, guid: c01dcd2543f69ca4e8b645f9a2b38f1c, type: 2}

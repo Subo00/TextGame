@@ -17,5 +17,8 @@ MonoBehaviour:
     me.\" She takes a deep breath and says \"I threw the cup at it and I escaped
     through one of the secret passages the mansion has. I didn't stop running until
     I got to the village\". She takes a pause and continues: \"so, are you up for
-    the task?\"  \r\n\r\n1.\"Yes ma'am!\" "
-  nextStates: []
+    the task?\"  \r\n"
+  actions:
+  - '"Yes ma''am!" '
+  nextStates:
+  - {fileID: 11400000, guid: feaf648f7139b904f8b89f8060fe75c9, type: 2}

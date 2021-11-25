@@ -16,7 +16,8 @@ MonoBehaviour:
   storyText: '"You go North by one, then East by one, then North once more, you can''t
     miss it".
 
-    
-
-    1.Continue'
-  nextStates: []
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: be8a0d86b4189e9499b171d2f990504a, type: 2}

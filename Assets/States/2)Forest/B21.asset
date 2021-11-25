@@ -15,12 +15,12 @@ MonoBehaviour:
   titleText: Forest
   storyText: 'You find yourself near the source of the stream. Three paths are open:
 
-    
-
-    1.Go
-    West
-
-    2. Go North
-
-    3.Go East'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  nextStates:
+  - {fileID: 11400000, guid: 5cdc0464ff0701344aba6756ff3cd847, type: 2}
+  - {fileID: 11400000, guid: 64c288ce76739f24196356cb0407e84a, type: 2}
+  - {fileID: 11400000, guid: c01dcd2543f69ca4e8b645f9a2b38f1c, type: 2}

@@ -15,6 +15,10 @@ MonoBehaviour:
   titleText: Mansion
   storyText: "You hear his voice from the hall: \"You're gonna lecture me? You come
     here trough the window trying to kill me, isn't that right?\". After a pause
-    he continues: \" Well? are you going to answer?\"  \r\n\r\n1.\"You're right\"
-    Throw down the sword \"Let's talk\" \r\n2.\"You're right\" Rush to the hall"
-  nextStates: []
+    he continues: \" Well? are you going to answer?\"  \r\n\r\n"
+  actions:
+  - '"You''re right" Throw down the sword "Let''s talk"  '
+  - ' "You''re right" Rush to the hall'
+  nextStates:
+  - {fileID: 11400000, guid: 4797cbf2e2e6a3a4cb3b9411925b0879, type: 2}
+  - {fileID: 11400000, guid: 7bb2fad6aafae9544a178b3ed52f1c0f, type: 2}

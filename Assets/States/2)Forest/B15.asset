@@ -16,11 +16,12 @@ MonoBehaviour:
   storyText: 'This part of the forest isn''t so dark and you manage to see three
     paths, you:
 
-    
-
-    1.Go West
-
-    2. Go East
-
-    3.Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go East
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 4b6fae9461464404e802624d7cc19a12, type: 2}
+  - {fileID: 11400000, guid: 306b7bed3b9400443920cac916239219, type: 2}
+  - {fileID: 11400000, guid: 120b4b8fb650ddd4ab1204f20e4e5723, type: 2}

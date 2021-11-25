@@ -16,11 +16,14 @@ MonoBehaviour:
   storyText: '"As a matter of fact there is, but you need to follow the steps exactly
     as I tell you."
 
-    "First you go North, then you take two roads East, two
-    South, then one East, then North, East one more time then you go straight North,
-    and you''re there."
+    "First you go North, then you take two roads East, two South,
+    then one East, then North, East one more time then you go straight North, and
+    you''re there."
 
-    
 
-    1.Continue'
-  nextStates: []
+
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: be8a0d86b4189e9499b171d2f990504a, type: 2}

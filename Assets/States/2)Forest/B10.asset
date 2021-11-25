@@ -16,5 +16,8 @@ MonoBehaviour:
   storyText: "You see that the attack took all her energy, and now it's your turn.
     Slashing towards her you mange to make her bleed. The cubs stop you from killing
     her, one of them goes for the right leg, another for the left and the third one
-    jumps on you. You are eaten by bears. \r\n\r\n1.Restart"
-  nextStates: []
+    jumps on you. You are eaten by bears. \r"
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

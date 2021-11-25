@@ -16,10 +16,11 @@ MonoBehaviour:
   storyText: '"Even my own parents were ashamed of me. You see I came into this world
     deformed and that''s why they didn''t want me ."  He is at your mercy. You:
 
-    
 
-    1.Spare
-    him
-
-    2.Kill him '
-  nextStates: []
+'
+  actions:
+  - Spare him
+  - 'Kill him '
+  nextStates:
+  - {fileID: 11400000, guid: 037a3f78ebbfa384a937c306717c6682, type: 2}
+  - {fileID: 11400000, guid: 383ad6736dbdc624886ea630133ecaeb, type: 2}

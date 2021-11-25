@@ -15,5 +15,8 @@ MonoBehaviour:
   titleText: Mansion entrance
   storyText: "\rAs you walk down the secret passage, you see that the lights are
     lit. You enter what seems to be a forgotten tunnel. It's a bit dark, but you
-    manage to find your way forward.\r\n\r\n1.Continue "
-  nextStates: []
+    manage to find your way forward.\r\n\r\n"
+  actions:
+  - 'Continue '
+  nextStates:
+  - {fileID: 11400000, guid: acb759575ae36c6408a33b38c346c327, type: 2}

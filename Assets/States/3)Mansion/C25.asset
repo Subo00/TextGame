@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Mansion
   storyText: "Entering the bedroom you get a knock on the back of your head with
-    a night stand. \r\n\r\n1.Continue"
-  nextStates: []
+    a night stand. \r\n\r\n"
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: 1c45e2833030e4742831b41a8304046f, type: 2}

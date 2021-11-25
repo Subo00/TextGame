@@ -15,5 +15,12 @@ MonoBehaviour:
   titleText: Forest exit
   storyText: "You are near the exit of the forest and the mansion is just a few meters
     north. South you can see that someone managed to block the path with trees.  
-    \r\n\r\n1.Go West\r\n2. Go North\r\n3.Go East"
-  nextStates: []
+    \r\n"
+  actions:
+  - 'Go West '
+  - 'Go North '
+  - Go East
+  nextStates:
+  - {fileID: 11400000, guid: 8e5b5d37148794740b3708cc2856c3ba, type: 2}
+  - {fileID: 11400000, guid: 31d61b6361ef75142adc4d88f3338ee7, type: 2}
+  - {fileID: 11400000, guid: 34b886a59e09bcb45b89d080d1f5fba8, type: 2}

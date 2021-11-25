@@ -16,10 +16,13 @@ MonoBehaviour:
   storyText: 'You manage to secure the mansion. You have become the village savior,
     the threat is gone, and if he ever returns, you''ll be ready.
 
-    
+
 
     NEUTRAL
     ENDING
 
-    1.Restart'
-  nextStates: []
+'
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

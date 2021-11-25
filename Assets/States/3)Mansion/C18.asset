@@ -16,7 +16,10 @@ MonoBehaviour:
   storyText: 'You wake up near the entrance of the village. You have failed your
     quest
 
-    
 
-    1.Restart'
-  nextStates: []
+
+'
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

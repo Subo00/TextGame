@@ -16,6 +16,10 @@ MonoBehaviour:
   storyText: "You ready yourself for the attack. You sneak in the cave, raise your
     sword and stab the sleeping bear. The bear is wounded but she's awake and angry
     as all hell. She attacks with the flurry of swipes. Luckily your shield protects
-    you, but it's broken in the process. Your next move is: \r\n\r\n1.Attack her
-    again\r\n2.Run North"
-  nextStates: []
+    you. Your next move is: \r\n\r"
+  actions:
+  - Attack her again
+  - Run North
+  nextStates:
+  - {fileID: 11400000, guid: 81295b444751bfd4683e77f1c8ad7997, type: 2}
+  - {fileID: 11400000, guid: 5cdc0464ff0701344aba6756ff3cd847, type: 2}

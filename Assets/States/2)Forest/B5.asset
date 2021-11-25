@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Forest
   storyText: "*CLANG* you step on a bear trap. You are hurt. Too bad, you are not
-    able to continue your journey.\r\n \r\n1.Restart"
-  nextStates: []
+    able to continue your journey.\r"
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

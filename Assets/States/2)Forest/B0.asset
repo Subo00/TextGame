@@ -17,7 +17,8 @@ MonoBehaviour:
     you find yourself near the entrance. The sun is still out, but you have a feeling
     that it won''t be for too long.
 
-    
-
-    1.Enter the forest'
-  nextStates: []
+'
+  actions:
+  - Enter the forest
+  nextStates:
+  - {fileID: 11400000, guid: 0e3e007f1743f074992c83bf6c4e54fb, type: 2}

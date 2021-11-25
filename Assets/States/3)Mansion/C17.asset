@@ -17,7 +17,10 @@ MonoBehaviour:
     mask for a reason. He quickly goes under your hand and hugs you from behind and 
     goes for a suplex...
 
-    
 
-    1.Continue '
-  nextStates: []
+
+'
+  actions:
+  - 'Continue '
+  nextStates:
+  - {fileID: 11400000, guid: 1c45e2833030e4742831b41a8304046f, type: 2}

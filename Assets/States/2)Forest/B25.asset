@@ -16,14 +16,14 @@ MonoBehaviour:
   storyText: 'This part of the forest seems to be more walkable but you still can''t
     see very well. Your next move is:
 
-    
-
-    1.Go West
-
-    2. Go North
-
-    3.Go
-    East
-
-    4.Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 34b886a59e09bcb45b89d080d1f5fba8, type: 2}
+  - {fileID: 11400000, guid: e61be82e7e1f7cc4aadeb213dddaf11b, type: 2}
+  - {fileID: 11400000, guid: c01dcd2543f69ca4e8b645f9a2b38f1c, type: 2}
+  - {fileID: 11400000, guid: 164d98975dc2f034d9037de621041906, type: 2}

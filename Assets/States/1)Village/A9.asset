@@ -18,7 +18,8 @@ MonoBehaviour:
     you see my full name is Greta Stonehearth, I''m a noblewoman... or I was until
     that thing scared me away...."
 
-    
-
-    1.Continue '
-  nextStates: []
+'
+  actions:
+  - 'Continue '
+  nextStates:
+  - {fileID: 11400000, guid: 9ec73bca6faa62749b55eb0c80c892aa, type: 2}

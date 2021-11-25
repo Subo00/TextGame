@@ -17,7 +17,10 @@ MonoBehaviour:
     it so fast. Next thing you know, you are in  full mount beating him senseless.
     He is defeated.
 
-    
 
-    1.Remove his mask'
-  nextStates: []
+
+'
+  actions:
+  - Remove his mask
+  nextStates:
+  - {fileID: 11400000, guid: 000583f1b9967d847ae07effe97fa031, type: 2}

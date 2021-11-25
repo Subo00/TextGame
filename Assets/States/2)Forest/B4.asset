@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: B4
   m_EditorClassIdentifier: 
   titleText: Forest
-  storyText: "Walking on the edge, you notice another crossroads. You can go:\r\n
-    \r\n1.Go North\r\n2. Go South\r\n3.Go East"
-  nextStates: []
+  storyText: "Walking on the edge, you notice another crossroads. You can go:\r"
+  actions:
+  - 'Go North '
+  - 'Go East '
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 4b6fae9461464404e802624d7cc19a12, type: 2}
+  - {fileID: 11400000, guid: 120b4b8fb650ddd4ab1204f20e4e5723, type: 2}
+  - {fileID: 11400000, guid: be33d19abac8ff645ba01beba0d204de, type: 2}

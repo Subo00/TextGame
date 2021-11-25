@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: B16
   m_EditorClassIdentifier: 
   titleText: Forest
-  storyText: "\"Yes? You seem lost, how can I help you?\" Asks the man. He adds \"Oh
-    yeah before I forget, don't go North-West of here, there are traps set\"\r\n\r\n1.(F:H)
-    \"You must be Boris\" \r\n2.(F:L)\"Is there a secret entrance to the mansion?\"\r\n3.
-    (F:S)\"I broke my shield, can you help?\"\r\n4.\"How to get to the Mansion?\"\r\n5.\"I
-    have to get going\""
-  nextStates: []
+  storyText: '"Yes? You seem lost, how can I help you?" Asks the man. He adds "Oh
+    yeah before I forget, don''t go North-West of here, there are traps set"
+
+    
+
+
+'
+  actions:
+  - '"How to get to the Mansion?" '
+  - '"I have to get going"'
+  nextStates:
+  - {fileID: 11400000, guid: f3a9ebc35a78c2048944c035ecd99c7d, type: 2}
+  - {fileID: 11400000, guid: 120b4b8fb650ddd4ab1204f20e4e5723, type: 2}

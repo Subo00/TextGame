@@ -17,13 +17,14 @@ MonoBehaviour:
     snuffed out. The mansion is two floors high, you can see the entrance door and
     two big windows beside it. There is also balcony on the second floor.
 
-    
 
-    1.Enter
-    trough the door
 
-    2.Enter trough the left window
-
-    3.Enter trough the
-    right window'
-  nextStates: []
+'
+  actions:
+  - Enter trough the door
+  - Enter trough the left window
+  - Enter trough the right window
+  nextStates:
+  - {fileID: 11400000, guid: 36b2c75ce8f00cc49b63c3d02611c20b, type: 2}
+  - {fileID: 11400000, guid: 57f30662133a5d24f8109f47df432214, type: 2}
+  - {fileID: 11400000, guid: 87c0cbf2f57c9cc499fd702bab940613, type: 2}

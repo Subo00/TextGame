@@ -17,7 +17,9 @@ MonoBehaviour:
     jaw,  crooked teeth and uneven blue eyes. He says trough tears of joy: "My name
     is Luca"
 
-    
 
-    1.Continue'
-  nextStates: []
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: d00d1f86df056e74e80bdcf22567d6dd, type: 2}

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Mansion
   storyText: "He noticed the sword, and he carefully peeked into the room, you could
-    se a humanoid shaped figure with a sheep's head for a mask.  \r\n\r\n1.\"It's
-    alright, I won't hurt you, what's your name?\""
-  nextStates: []
+    se a humanoid shaped figure with a sheep's head for a mask.  \r\n\r\n"
+  actions:
+  - '"It''s alright, I won''t hurt you, what''s your name?"'
+  nextStates:
+  - {fileID: 11400000, guid: 6f75d21917ab9f448b14b405a858c1cf, type: 2}

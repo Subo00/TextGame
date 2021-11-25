@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Mansion
   storyText: "Rushing the main hall, you see a humanoid creature with a sheep's head
-    as a mask. He starts running upstairs \r\n\r\n1.Follow him"
-  nextStates: []
+    as a mask. He starts running upstairs \r\n\r\n"
+  actions:
+  - Follow him
+  nextStates:
+  - {fileID: 11400000, guid: b9dbd6ebee1914044a9529b968efe3b0, type: 2}

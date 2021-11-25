@@ -15,5 +15,8 @@ MonoBehaviour:
   titleText: Front yard
   storyText: "You go for the low kick. Hitting his leg he drops his guard, giving
     you a window for the punch to the gut. You enter into a combo of punches and
-    kicks, knocking him down.  \r\n\r\n1.Remove his mask"
-  nextStates: []
+    kicks, knocking him down.  \r\n\r\n"
+  actions:
+  - Remove his mask
+  nextStates:
+  - {fileID: 11400000, guid: 000583f1b9967d847ae07effe97fa031, type: 2}

@@ -17,7 +17,10 @@ MonoBehaviour:
     and say: "If I wanted to kill you, you''d be dead already.". you continue with
     "You don''t look like a monster, nor do you act like one, what''s your name?"
 
-    
 
-    1.Continue '
-  nextStates: []
+
+'
+  actions:
+  - 'Continue '
+  nextStates:
+  - {fileID: 11400000, guid: 6f75d21917ab9f448b14b405a858c1cf, type: 2}

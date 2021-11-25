@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Mansion
   storyText: "A humanoid creature with a sheep's head for a mask is rushing at you
-    now. \r\n\r\n1.(F:N)Throw a net at him\r\n2.Doge him"
-  nextStates: []
+    now. \r\n\r\n"
+  actions:
+  - Doge him
+  nextStates:
+  - {fileID: 11400000, guid: f285053d4722e374d9edf42088f608e0, type: 2}

@@ -10,7 +10,9 @@ public class GameHandler : MonoBehaviour
     [SerializeField] private Text textComponent;
     [SerializeField] private State startingState;
     [SerializeField] private Button[] buttons;
+    [SerializeField] private StateFlag[] stateFlags;
     private int numOfActions = 5;
+
 
     private  State state;
     // Start is called before the first frame update
@@ -24,6 +26,7 @@ public class GameHandler : MonoBehaviour
     {
         textComponent.text = state.GetStateStory();
         titleComponent.text = state.GetStateTitle();
+        FlagControl();
         ManageButtons();
         Debuging();
     }
@@ -31,7 +34,7 @@ public class GameHandler : MonoBehaviour
     private void Debuging()
     {
         var futureStates = state.GetNextState();
-        for(int i = 0; i < futureStates.Length; i++)
+        for(int i = 0; i < futureStates.Count; i++)
         {
             Debug.Log("Current state: "+ state + ", next state "+ futureStates[i]);
         }
@@ -43,7 +46,7 @@ public class GameHandler : MonoBehaviour
         for(int i = 0; i < numOfActions; i++)
         {
             buttons[i].gameObject.SetActive(false); //disables the buttons if they aren't needed
-            if(actions.Length > i)
+            if(actions.Count > i)
             {
                 buttons[i].gameObject.SetActive(true); //enable buttons that are needed
                 buttons[i].GetComponentInChildren<Text>().text = actions[i]; //change the text to the action 
@@ -56,11 +59,32 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-  
+
+
     private void ChangeState(int nextState)
     {
         var futureStates = state.GetNextState();
         state = futureStates[nextState];
         UpdateState();
+    }
+
+
+    private void ChangeStateValue(StateFlag sf)
+    {
+        if(sf.isAdd)
+        sf.stateChange.AddAction(sf.action, sf.stateAdd);
+        else
+        sf.stateChange.RemoveAction(sf.action, sf.stateAdd);
+    }
+    private void FlagControl()
+    {
+        for(int i = 0; i < stateFlags.Length; i++)
+        {
+            if(state.name == stateFlags[i].trigger)
+            {
+                ChangeStateValue(stateFlags[i]);
+            }
+        }
+        return;
     }
 }

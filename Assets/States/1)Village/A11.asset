@@ -20,9 +20,8 @@ MonoBehaviour:
     so I get lost a bit. Well anyway if you need more information, you can ask the
     village elder in the hut."
 
-    
-
-    1.Visite the hut
-
-    2.Go to the forest'
-  nextStates: []
+'
+  actions:
+  - Go to the forest
+  nextStates:
+  - {fileID: 11400000, guid: ccb97273e053394478693168774f73a6, type: 2}

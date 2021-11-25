@@ -16,7 +16,10 @@ MonoBehaviour:
   storyText: '"My name? It''s Luca". He pauses for a bit and says "Thank you for
     this kindness".
 
-    
 
-    1.Continue'
-  nextStates: []
+
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: 120f853634ac0c74da1b317caca0f0a2, type: 2}

@@ -16,5 +16,8 @@ MonoBehaviour:
   storyText: "\"I didn't do anything wrong, I never killed anyone.\" He calms down
     a bit.\" How could they reject me so fast? They didn't even try to get to know
     me...\". His face frowns. \"Even my own grandmother ran away from me, it only
-    took one glance at my face to scare her for good.\"  \r\n\r\n1.Continue"
-  nextStates: []
+    took one glance at my face to scare her for good.\"  \r\n\r\n"
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: df30351e128b09c46a824145464281ce, type: 2}

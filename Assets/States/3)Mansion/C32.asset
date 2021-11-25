@@ -16,7 +16,10 @@ MonoBehaviour:
   storyText: 'You spare him, and offer him a hand. He looks at you confused. "Why
     are you doing this?" He asks.
 
-    
 
-    1."Somebody has to, what''s your name?"'
-  nextStates: []
+
+'
+  actions:
+  - '"Somebody has to, what''s your name?"'
+  nextStates:
+  - {fileID: 11400000, guid: 570fcbcc67c159b43a73891292a55560, type: 2}

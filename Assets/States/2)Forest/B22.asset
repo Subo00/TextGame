@@ -16,13 +16,17 @@ MonoBehaviour:
   storyText: 'The forest surrounds you with the bushes and trees. Your next move
     is:
 
-    
 
-    1.Go West
 
-    2. Go North
 
-    3.Go East
-
-    4.Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: f625091228df66242822649cf321396f, type: 2}
+  - {fileID: 11400000, guid: 34b886a59e09bcb45b89d080d1f5fba8, type: 2}
+  - {fileID: 11400000, guid: 164d98975dc2f034d9037de621041906, type: 2}
+  - {fileID: 11400000, guid: 32c6d0772fcaefb478f146848de4559e, type: 2}

@@ -16,7 +16,9 @@ MonoBehaviour:
   storyText: 'You seem to have reached the edge of the forest and you can see that
     there is nothing but a 100 meter fall. You:
 
-    
 
-    1.Go West'
-  nextStates: []
+'
+  actions:
+  - Go West
+  nextStates:
+  - {fileID: 11400000, guid: 32c6d0772fcaefb478f146848de4559e, type: 2}

@@ -17,12 +17,13 @@ MonoBehaviour:
     as he could. You both fall in the front yard you also lose your sword during
     the fall. As soon as both of you get up, you:
 
-    
 
-    1.Kick him
-
-    2.Grapple
-    him
-
-    3.Punch him'
-  nextStates: []
+'
+  actions:
+  - Kick him
+  - Grapple him
+  - Punch him
+  nextStates:
+  - {fileID: 11400000, guid: d0f184e30f010e44cac86bd4239331e6, type: 2}
+  - {fileID: 11400000, guid: 38aacd2648625f241a47208d96f80f89, type: 2}
+  - {fileID: 11400000, guid: e098ba4b8f8ef57468f58be662b748c7, type: 2}

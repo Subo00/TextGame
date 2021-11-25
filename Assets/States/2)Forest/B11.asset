@@ -16,12 +16,12 @@ MonoBehaviour:
   storyText: 'You enter the cold and dark part of the forest. There are a lot of
     mushrooms around you, The walkable path is:
 
-    
-
-    1. Go West
-
-    2.Go
-    North
-
-    3.Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go North
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: e5a465d8f036aff40bc3b83c67c5b345, type: 2}
+  - {fileID: 11400000, guid: 34b886a59e09bcb45b89d080d1f5fba8, type: 2}
+  - {fileID: 11400000, guid: 5cdc0464ff0701344aba6756ff3cd847, type: 2}

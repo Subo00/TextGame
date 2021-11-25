@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: C26
   m_EditorClassIdentifier: 
   titleText: Mansion
-  storyText: "You enter trough a pantry into the kitchen. You see that the door to
-    the room across is open. You also manage to spot humanoid creature with a sheep's
-    head as a mask. It's just sitting there, sipping tea?\r\n\r\n1.(F:N) Throw a
-    net at him\r\n2.Stab him \r\n3.Approach him"
-  nextStates: []
+  storyText: 'You enter trough a pantry into the kitchen. You see that the door to
+    the room across is open. You also manage to spot humanoid creature with a sheep''s
+    head as a mask. It''s just sitting there, sipping tea?
+
+
+
+'
+  actions:
+  - 'Stab him  '
+  - Approach him
+  nextStates:
+  - {fileID: 11400000, guid: 383ad6736dbdc624886ea630133ecaeb, type: 2}
+  - {fileID: 11400000, guid: 9abb1913617417b45a2a96bf1346eda2, type: 2}

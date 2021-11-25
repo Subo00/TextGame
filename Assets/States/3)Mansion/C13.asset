@@ -16,7 +16,10 @@ MonoBehaviour:
   storyText: 'He''s tangled in the net. While trying to free himself you quickly
     tackle him to the ground and get a hold on him. You decide to remove his mask.
 
-    
 
-    1.Continue'
-  nextStates: []
+
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: 000583f1b9967d847ae07effe97fa031, type: 2}

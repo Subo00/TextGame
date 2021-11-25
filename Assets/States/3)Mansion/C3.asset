@@ -15,6 +15,10 @@ MonoBehaviour:
   titleText: Mansion
   storyText: "\"Kill me! That's why you're here for isn't it?\" You see the hate
     in his eyes. \"You're just like the rest of them, you put a label on me and act
-    towards me like I'm a monster then you seem shocked when I fight back\" \r\n\r\n1.\"You
-    were the one who attacked the villagers\" \r\n2.Finish him "
-  nextStates: []
+    towards me like I'm a monster then you seem shocked when I fight back\" \r\n\r\n\r\n"
+  actions:
+  - '"You were the one who attacked the villagers" '
+  - 'Finish him '
+  nextStates:
+  - {fileID: 11400000, guid: 3ee9912c22b2a9348ad4d09290c4a15a, type: 2}
+  - {fileID: 11400000, guid: 383ad6736dbdc624886ea630133ecaeb, type: 2}

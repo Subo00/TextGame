@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: B6
   m_EditorClassIdentifier: 
   titleText: Forest
-  storyText: "You come across a man, he seems to be a hunter, you can tell by the
-    bow & arrows. He also has bear traps with him.\r\n\r\n1.Go West \r\n2.Go North\r\n3.
-    Go East\r\n4.Go South\r\n5.Approach the man"
-  nextStates: []
+  storyText: 'You come across a man, he seems to be a hunter, you can tell by the
+    bow & arrows. He also has bear traps with him.
+
+'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  - Go South
+  - Approach the man
+  nextStates:
+  - {fileID: 11400000, guid: a3cf446be889e2f4a977bdf1da4144ec, type: 2}
+  - {fileID: 11400000, guid: 8e5b5d37148794740b3708cc2856c3ba, type: 2}
+  - {fileID: 11400000, guid: e5a465d8f036aff40bc3b83c67c5b345, type: 2}
+  - {fileID: 11400000, guid: e234ecaf412d3a44cba6030651720e70, type: 2}
+  - {fileID: 11400000, guid: be8a0d86b4189e9499b171d2f990504a, type: 2}

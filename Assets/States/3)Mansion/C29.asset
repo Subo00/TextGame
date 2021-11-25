@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Mansion
   storyText: "This is your quests end\r\nYou didn't kill a beast \r\nBut you made
-    a friend \r\n\r\nGOOD ENDING\r\n1.Restart"
-  nextStates: []
+    a friend \r\n\r\nGOOD ENDING\r\n"
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}

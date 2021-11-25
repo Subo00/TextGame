@@ -15,5 +15,8 @@ MonoBehaviour:
   titleText: Mansion
   storyText: "Entering the office he attacks you with a burning log that was in the
     fireplace. the smoke and dust make you dizzy, giving him time to escape trough
-    the window.\r\n \r\n1.Continue"
-  nextStates: []
+    the window.\r\n \r\n"
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: fc0bc038651a4b4489e735ba4c47beab, type: 2}

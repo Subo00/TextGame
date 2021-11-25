@@ -17,12 +17,14 @@ MonoBehaviour:
     he knocks off your sword. Both of you roll out of the house and continue the
     fight there. For your next move you:
 
-    
 
-    1.Punch him
 
-    2.Kick him
-
-    3.Grapple
-    him'
-  nextStates: []
+'
+  actions:
+  - Punch him
+  - Kick him
+  - Grapple him
+  nextStates:
+  - {fileID: 11400000, guid: e098ba4b8f8ef57468f58be662b748c7, type: 2}
+  - {fileID: 11400000, guid: d0f184e30f010e44cac86bd4239331e6, type: 2}
+  - {fileID: 11400000, guid: 38aacd2648625f241a47208d96f80f89, type: 2}

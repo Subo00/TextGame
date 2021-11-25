@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: A6
   m_EditorClassIdentifier: 
   titleText: Village tavern
-  storyText: 'Downing that ale made you realize you were thirstier then you thought.
-    It''s probably best you don''t order another, you have a job to do after all.
-    Next you....
-
-    
-
-    1.Order another
-
-    2.Ask:"how may I help"'
-  nextStates: []
+  storyText: Downing that ale made you realize you were thirstier then you thought.
+    It's probably best you don't order another, you have a job to do after all. Next
+    you....
+  actions:
+  - Order another
+  - Ask:"how may I help"
+  nextStates:
+  - {fileID: 11400000, guid: dbf95459933f26342b37b001c0feab6c, type: 2}
+  - {fileID: 11400000, guid: 4cbb0ac2a7a8ed843b485ba82180facb, type: 2}

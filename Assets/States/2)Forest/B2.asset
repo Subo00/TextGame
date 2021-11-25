@@ -14,14 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Forest
   storyText: 'Moving onward you notice that the forest isn''t so thick as before,
-    you seem to be near the edge of the forest.  Your next move is:
-
-    
-
-    1.Go
-    West
-
-    2. Go North
-
-    3.Go East'
-  nextStates: []
+    you seem to be near the edge of the forest.  Your next move is:'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  nextStates:
+  - {fileID: 11400000, guid: be33d19abac8ff645ba01beba0d204de, type: 2}
+  - {fileID: 11400000, guid: 120b4b8fb650ddd4ab1204f20e4e5723, type: 2}
+  - {fileID: 11400000, guid: 0e3e007f1743f074992c83bf6c4e54fb, type: 2}

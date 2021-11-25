@@ -17,10 +17,13 @@ MonoBehaviour:
     surrounded by books on the shelves, you also see an armchair in the corner. You
     hear a shout "Get out of my home!". The voice is coming from the main hall.
 
-    
 
-    1."Your
-    home? You just moved here, this isn''t yours!"
 
-    2.Rush into the main hall '
-  nextStates: []
+
+'
+  actions:
+  - '"Your home? You just moved here, this isn''t yours!"'
+  - 'Rush into the main hall '
+  nextStates:
+  - {fileID: 11400000, guid: 863694b524b9faf4789540bc0d24a0e2, type: 2}
+  - {fileID: 11400000, guid: 7bb2fad6aafae9544a178b3ed52f1c0f, type: 2}

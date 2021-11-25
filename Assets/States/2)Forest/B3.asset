@@ -16,9 +16,10 @@ MonoBehaviour:
   storyText: 'You are on the edge of the forest, you need to find the way back, you
     go:
 
-    
-
-    1.Go North
-
-    2. Go East'
-  nextStates: []
+'
+  actions:
+  - Go North
+  - Go East
+  nextStates:
+  - {fileID: 11400000, guid: a3cf446be889e2f4a977bdf1da4144ec, type: 2}
+  - {fileID: 11400000, guid: e234ecaf412d3a44cba6030651720e70, type: 2}

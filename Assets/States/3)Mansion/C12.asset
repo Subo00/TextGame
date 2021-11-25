@@ -17,7 +17,10 @@ MonoBehaviour:
     his blue eyes are uneven, his teeth crooked.  He has a few patches  of hair on
     his head.
 
-    
 
-    1.Continue'
-  nextStates: []
+
+'
+  actions:
+  - Continue
+  nextStates:
+  - {fileID: 11400000, guid: 2efc59688be0d2445877473b37078e6a, type: 2}

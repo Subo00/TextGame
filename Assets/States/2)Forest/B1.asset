@@ -15,14 +15,12 @@ MonoBehaviour:
   titleText: Forest
   storyText: 'As soon as you enter a bit deeper you begin to notice that the sun
     has a tough time pushing trough the thick trees. Moving forward you come to a
-    crossroad. Your options are:
-
-    
-
-    1.Go West
-
-    2. Go North
-
-    3.Go
-    East'
-  nextStates: []
+    crossroad. Your options are:'
+  actions:
+  - Go West
+  - Go North
+  - Go East
+  nextStates:
+  - {fileID: 11400000, guid: e234ecaf412d3a44cba6030651720e70, type: 2}
+  - {fileID: 11400000, guid: e5a465d8f036aff40bc3b83c67c5b345, type: 2}
+  - {fileID: 11400000, guid: 5cdc0464ff0701344aba6756ff3cd847, type: 2}

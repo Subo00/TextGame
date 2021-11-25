@@ -15,10 +15,11 @@ MonoBehaviour:
   titleText: Forest
   storyText: 'The forest is pretty dark, but you manage to see two paths:
 
-    
 
-    1.Go
-    West
-
-    2. Go South'
-  nextStates: []
+'
+  actions:
+  - Go West
+  - Go South
+  nextStates:
+  - {fileID: 11400000, guid: 306b7bed3b9400443920cac916239219, type: 2}
+  - {fileID: 11400000, guid: f625091228df66242822649cf321396f, type: 2}

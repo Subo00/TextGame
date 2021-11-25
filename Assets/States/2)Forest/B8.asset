@@ -16,10 +16,10 @@ MonoBehaviour:
   storyText: 'You are near a cave entrance. You peek inside and find a bear family
     sleeping. It seems that there is mama bear and her three cubs. You:
 
-    
-
-    1.Attack
-    the bear
-
-    2.Go North'
-  nextStates: []
+'
+  actions:
+  - Attack the bear
+  - Go North
+  nextStates:
+  - {fileID: 11400000, guid: 257e7f993c6607c479a58d72b7b547a5, type: 2}
+  - {fileID: 11400000, guid: 5cdc0464ff0701344aba6756ff3cd847, type: 2}

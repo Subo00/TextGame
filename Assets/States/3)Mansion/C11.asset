@@ -15,5 +15,8 @@ MonoBehaviour:
   titleText: Mansion
   storyText: "Killing the monster you got praise from the village and as an added
     reward, the king granted you the mansion.  You spend your days as their protector.
-    \r\n\r\nNEUTRAL ENDING\r\n1.Restart"
-  nextStates: []
+    \r\n\r\nNEUTRAL ENDING\r\n"
+  actions:
+  - Restart
+  nextStates:
+  - {fileID: 11400000, guid: 1ad35e91ebe1a3242b60b1e779ea160e, type: 2}
