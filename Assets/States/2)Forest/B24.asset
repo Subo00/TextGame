@@ -22,3 +22,4 @@ MonoBehaviour:
   - Go West
   nextStates:
   - {fileID: 11400000, guid: 32c6d0772fcaefb478f146848de4559e, type: 2}
+  sprite: {fileID: 21300000, guid: 7a3220f5e08fc8747bf3a7d19a1e06e6, type: 3}

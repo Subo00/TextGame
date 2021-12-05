@@ -11,6 +11,7 @@ public class GameHandler : MonoBehaviour
     [SerializeField] private State startingState;
     [SerializeField] private Button[] buttons;
     [SerializeField] private StateFlag[] stateFlags;
+    [SerializeField] private Image imageComponent;
     private int numOfActions = 5;
 
 
@@ -26,6 +27,7 @@ public class GameHandler : MonoBehaviour
     {
         textComponent.text = state.GetStateStory();
         titleComponent.text = state.GetStateTitle();
+        if(state.HasSprite()){ imageComponent.sprite = state.GetStateSprite(); }
         FlagControl();
         ManageButtons();
         Debuging();
@@ -53,7 +55,7 @@ public class GameHandler : MonoBehaviour
                 int nextState = i;
                 buttons[i].onClick.RemoveAllListeners(); //remove the previous listeners
                 buttons[i].onClick.AddListener(()=> ChangeState(nextState)); //when you click on a button, change state
-                
+                //buttons[i].onClick.AddListener(
             }
            
         }
@@ -76,6 +78,7 @@ public class GameHandler : MonoBehaviour
         else
         sf.stateChange.RemoveAction(sf.action, sf.stateAdd);
     }
+
     private void FlagControl()
     {
         for(int i = 0; i < stateFlags.Length; i++)

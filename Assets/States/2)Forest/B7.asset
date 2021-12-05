@@ -25,3 +25,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f625091228df66242822649cf321396f, type: 2}
   - {fileID: 11400000, guid: 32c6d0772fcaefb478f146848de4559e, type: 2}
   - {fileID: 11400000, guid: 7f206a48eaf66944a916a72b4140c598, type: 2}
+  sprite: {fileID: 21300000, guid: 9cdaa38dcc01db24bb2f69ececb4507a, type: 3}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
@@ -11,6 +12,8 @@ public class State : ScriptableObject
     [TextArea(14,10)][SerializeField] private string storyText;
     [SerializeField] private List<string> actions;
     [SerializeField] private List<State> nextStates;
+
+    [SerializeField] private Sprite sprite;
     
 
    public string GetStateStory()
@@ -31,6 +34,19 @@ public class State : ScriptableObject
    public List<string> GetStateActions()
    {
        return actions;
+   }
+
+   public Sprite GetStateSprite()
+   {
+       return sprite;
+   }
+
+   public bool HasSprite()
+   {
+       if(sprite != null)
+       return true;
+       else
+       return false;
    }
 
    public void RemoveAction(string action, State state)

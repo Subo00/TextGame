@@ -21,3 +21,4 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: d4fb0762b7794b94bbb436345a9b4bb9, type: 2}
   - {fileID: 11400000, guid: 4cbb0ac2a7a8ed843b485ba82180facb, type: 2}
+  sprite: {fileID: 21300000, guid: bfda7dfd057308c4ea715775ceca2845, type: 3}

@@ -20,3 +20,4 @@ MonoBehaviour:
   - 'Continue '
   nextStates:
   - {fileID: 11400000, guid: acb759575ae36c6408a33b38c346c327, type: 2}
+  sprite: {fileID: 21300000, guid: 3a9edfefa97da41409aaffefaa79853b, type: 3}

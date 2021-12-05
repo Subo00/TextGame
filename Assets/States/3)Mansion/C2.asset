@@ -16,7 +16,7 @@ MonoBehaviour:
   storyText: 'As soon as you open the front door, you are greeted with a crossbow
     bolt flying your way. Luckily you raise your shield in time to deflect the bolt.
 
-    
+
 
 
 '
@@ -26,3 +26,4 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: 3007c9a3375d3684794f27e1b04b85cd, type: 2}
   - {fileID: 11400000, guid: 9a6eef81f40c5c84db77ba9f9155c036, type: 2}
+  sprite: {fileID: 21300000, guid: 1d104ece1a3637d4680ed19ab1ddbab4, type: 3}
