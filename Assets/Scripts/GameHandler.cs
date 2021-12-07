@@ -30,7 +30,7 @@ public class GameHandler : MonoBehaviour
         if(state.HasSprite()){ imageComponent.sprite = state.GetStateSprite(); }
         FlagControl();
         ManageButtons();
-        Debuging();
+        //Debuging();
     }
 
     private void Debuging()

@@ -123,54 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &30301887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 30301888}
-  - component: {fileID: 30301889}
-  m_Layer: 0
-  m_Name: 'Net Unset '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &30301888
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30301887}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2004206814}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &30301889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30301887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7526e4c438e60d64f821eab1d80e580b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: B13
-  stateChange: {fileID: 11400000, guid: 3007c9a3375d3684794f27e1b04b85cd, type: 2}
-  stateAdd: {fileID: 11400000, guid: ea096118f5684084ca1e94a739978980, type: 2}
-  action: Throw a net at him
-  isAdd: 0
 --- !u!1 &60222196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8feb2c675b61d34ebc5b870e90f870c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cd62ea23a2b60e4db13e5081794e07e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1403,10 +1355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1799,7 +1751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -125}
+  m_AnchoredPosition: {x: 0, y: -97}
   m_SizeDelta: {x: 1598.2881, y: 664.0839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162459610
@@ -2150,12 +2102,9 @@ MonoBehaviour:
   - {fileID: 568663921}
   - {fileID: 552842814}
   - {fileID: 391964136}
-  - {fileID: 30301889}
-  - {fileID: 2135586408}
   - {fileID: 2119816507}
   - {fileID: 2000240674}
-  imageComponent: {fileID: 0}
-  sfx: {fileID: 0}
+  imageComponent: {fileID: 787525354}
 --- !u!1 &1363152768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,7 +2575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
+  m_AnchoredPosition: {x: 0, y: 371}
   m_SizeDelta: {x: 1000, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819892522
@@ -2696,7 +2645,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2004206814}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2000240674
 MonoBehaviour:
@@ -2758,8 +2707,6 @@ Transform:
   - {fileID: 568663920}
   - {fileID: 552842813}
   - {fileID: 391964135}
-  - {fileID: 30301888}
-  - {fileID: 2135586407}
   - {fileID: 2119816506}
   - {fileID: 2000240673}
   m_Father: {fileID: 0}
@@ -3008,7 +2955,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2004206814}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2119816507
 MonoBehaviour:
@@ -3075,54 +3022,6 @@ MonoBehaviour:
   stateAdd: {fileID: 11400000, guid: b822656c431edd841af841e6499c2f08, type: 2}
   action: Visit the tavern
   isAdd: 1
---- !u!1 &2135586406
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2135586407}
-  - component: {fileID: 2135586408}
-  m_Layer: 0
-  m_Name: Net Unset (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2135586407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135586406}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2004206814}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2135586408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135586406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7526e4c438e60d64f821eab1d80e580b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: B13
-  stateChange: {fileID: 11400000, guid: acb759575ae36c6408a33b38c346c327, type: 2}
-  stateAdd: {fileID: 11400000, guid: ea096118f5684084ca1e94a739978980, type: 2}
-  action: Throw a net at him
-  isAdd: 0
 --- !u!1 &2141672509
 GameObject:
   m_ObjectHideFlags: 0
