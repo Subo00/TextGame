@@ -1,7 +1,9 @@
 # TextGame
 Simple text based game that has a medieval base and multiple endings. The game was made with Unity and C# for the GameDev.tv course.
 
-///ad a pick
+![alt text](https://github.com/Subo00/TextGame/blob/master/Assets/Images/TextGameplay.png)  
+
+https://enci.itch.io/textgame
 
 ## Credits
 Music - Bensound, https://www.bensound.com/royalty-free-music/track/adventure  
